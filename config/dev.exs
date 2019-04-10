@@ -52,7 +52,8 @@ config :sample_app, SampleAppWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/sample_app_web/views/.*(ex)$},
-      ~r{lib/sample_app_web/templates/.*(eex)$}
+      ~r{lib/sample_app_web/templates/.*(eex)$},
+      ~r{lib/sample_app_web/live/.*(ex)$}
     ]
   ]
 
