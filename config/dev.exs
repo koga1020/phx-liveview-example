@@ -70,7 +70,7 @@ config :phoenix, :plug_init_mode, :runtime
 # Configure your database
 config :sample_app, SampleApp.Repo,
   username: "default",
-  password: "postgres",
+  password: "secret",
   database: "default",
   hostname: "postgres",
   pool_size: 10
