@@ -72,5 +72,5 @@ config :sample_app, SampleApp.Repo,
   username: "default",
   password: "secret",
   database: "default",
-  hostname: "postgres",
+  hostname: "localhost",
   pool_size: 10
